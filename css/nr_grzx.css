@@ -1,0 +1,39 @@
+.ger{
+    position: absolute;
+    bottom: 0;
+    width: 80vw;
+    height: 80vh;
+    background: rgba(255, 255, 255,.8);
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    border-radius:5px ;
+    animation:opxs 2s linear both;
+    transition: all;
+}
+.tx {
+    margin:50px auto;
+    width: 150px;
+    height: 150px;
+    background: url('../imgs/头像.webp') no-repeat;
+    background-size: 100% 100%;
+    border-radius: 50%;
+   
+    
+}
+.ger span{
+    display: block;
+    margin-top: 10px;
+   color: black;
+   font-size: 36px;
+  
+}
+@keyframes opxs {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+    
+}

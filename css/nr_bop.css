@@ -1,0 +1,138 @@
+.nr_top{
+    position: relative;
+    width: 80%;
+    height: 25vh;
+    border: .1px solid blueviolet;
+    background: rgba(255, 255, 255,.5);
+    margin: 1vh auto;
+    border-radius: 15px;
+    border-bottom: 1px solid aqua;
+    box-shadow: 0px 1px aqua;
+    box-shadow:.1px 0px 0px 0px black;
+    animation:opxs 2s linear both;
+    transition: all;
+   
+}
+
+.nr_top h3{
+    width: 100px;
+    background: rgba(255, 255, 255,0);
+    font-size: 35px;
+    color: aqua;
+    margin-left: 10px;
+}
+.nr_bot{
+    width: 80%;
+    height: 60vh;
+    border-radius: 5px;
+    background: rgba(255, 255, 255,.5);
+    margin: 3vh auto;
+    overflow-y: auto;
+    border-top: 4px solid aqua;
+    box-shadow: 0px 1px aqua ;
+    box-shadow:.1px 0px 0px 0px black;
+    animation:opxs 2s linear both;
+    transition: all;
+}
+::-webkit-scrollbar:hover{
+   
+    background-color: none;
+}
+::-webkit-slider-thumb{
+    background-color: wheat;
+}
+::-webkit-slider-thumb:hover{
+    background: aqua;
+}
+.fk{
+    float: left;
+    width: 100%;
+    height: 250px;
+    border-bottom: 1px solid black;
+    background: none;
+    display: flex;
+    justify-content: space-between;
+}
+.fk_right {
+    width: 350px;
+    height: 95%;
+    float: right;
+    margin-top: 4px;
+    margin-right: 10px;
+    border: .1 solid black;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow:.1px 0px 0px 0px black;
+}
+.fk_right img{
+    width: 100%;
+    height: 100%;
+}
+.fk_left {
+    
+    width: 60%;
+    height: 95%;
+    float: left;
+    margin-top: 4px;
+    margin-left: 10px;
+    border: .1 solid black;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow:.1px 0px 0px 0px black;
+    background: none;
+    
+}
+.fk_left h1,span{
+    background: none;
+}
+.nr_top textarea{
+    width: 85%;
+    background: rgba(255, 255, 255,.5);
+    height: 45%;
+   resize: none;
+   border: none;
+   padding: 10px;
+  
+   position: absolute;
+   bottom: 15px;
+   left: 50px;
+  float: left;
+   
+}
+.nr_top input{
+    background: rgba(255, 255, 255,.5);
+    padding: 10px;
+    margin: auto;
+    width: 200px;
+    height: 10px;
+    float: left;
+    position: absolute;
+    top: 55px;
+    left: 50px;
+   
+}
+.nr_top  button{
+    
+    position: absolute;
+    background: rgba(255, 255, 255,.5);
+    bottom: 15px;
+    right: 30px;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.box{
+    background: none;
+    opacity: 0;
+    animation:opxs 2s linear both;
+    transition: all;
+}
+@keyframes opxs {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+    
+}
