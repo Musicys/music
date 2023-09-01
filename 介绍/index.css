@@ -1,0 +1,35 @@
+.js{
+    height: 80vh;
+    width: 100%;
+
+  position: relative;
+    background-size: 100% 100%;
+}
+.js_nr{
+    background: rgba(255,255,255,.5);
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    border-radius:5px 5px ;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    
+    
+}
+.tx{
+    margin:20px auto;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+.ah{
+    font-size: 30px;
+    width:95%;
+    margin: auto;
+    padding: 10px;
+    height: 50%;
+    
+   text-align: left;
+}

@@ -1,0 +1,88 @@
+.nr{
+    height: 100vh;
+}
+h1{
+    text-align: center;
+}
+.lyan{
+  
+    resize: none;
+    width: 55%;
+    height: 25%;
+    margin:5px auto;
+    padding: 10px;
+    display: block;
+    border: 10px solid #4c9dba;
+    font-size: 25px;
+    outline: none;
+    border-radius: 5px;
+}
+label{
+    display: block;
+   
+    width: 25%;
+    margin-left: 21%;
+    margin-top: 3%;
+}
+input{
+    padding: 3px 5px;
+}
+button{
+    position: absolute;
+    right: 21%;
+    width: 80px;
+    height: 40px;
+    background:#4c9dba;
+    outline: none;
+    border: none;
+    padding: 5px;
+    color: aliceblue;
+    font-size: 23px;
+    border-radius: 10%;
+}
+button:active{
+    background: green;
+}
+strong{
+  color:#4c9dba;
+}
+.liuyb{
+    width:100%;
+    height: 420px;
+   overflow-x: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.pk{
+    padding-top: 3px;
+    width: 100%;
+    height: 130px;
+    display: flex;
+    border-bottom: 1px solid black;
+    justify-content: space-between;
+}
+.tx{
+    margin-left: 5px;
+    width: 90px;
+    padding: 10px;
+    height: 90px;
+  
+    border-radius: 50%;
+    border: .1px solid rgba(255, 255, 255, .1)
+ 
+}
+.prnr{
+    position: relative;
+    margin-right: 5px;
+    flex: 1;
+    height: 120px;
+ 
+}
+.fssj{
+position: absolute;
+bottom: 0;
+left: 0;
+font-size: 5px;
+}

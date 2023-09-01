@@ -1,0 +1,58 @@
+.nr{
+    height: 85vh;
+    width: 100%;
+   
+    position: relative;
+    background-size: 100% 100%;
+}
+h1{
+
+  text-align: center;
+
+}
+.container {
+  height: 80%;
+  overflow-X: auto;
+ padding-top: 10px;
+  width: 90%;
+  margin: auto;
+}
+
+.item {
+  width: 30%;
+  height: 180px;
+  float: left;
+  border-radius: 15px;
+  margin-right: 10px;
+  border: 10px solid #ccc;
+  margin-bottom: 20px;
+  background: #Ccc;
+  break-inside: avoid-column;
+}
+.item >img{
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+}
+.item:hover{
+  border: 10px solid #4c9dba;
+  background: #4c9dba;
+}
+.mark{
+  display: none;
+  top: 0;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, .3)
+  
+
+}
+.mark>img{
+  display: block;
+  margin:5% auto;
+  width: 60%;
+  height: 60%;
+  border: 20px solid #ccc;
+  border-radius: 15px;
+}

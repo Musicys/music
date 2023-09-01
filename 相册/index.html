@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- 公告css -->
+    <link rel="stylesheet" href="../公共Css/index.css">
+    <!-- 改名需检查 -->
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <!-- 内容 -->
+<div class="ms">
+
+
+
+<div class="topbox">
+    <!-- 时间 -->
+    <span class="time">LOGO</span>
+    <ul>
+    <a href="../主页/index.html"><li>个人首页</li></a>
+    <a href="../介绍/index.html"><li>个人介绍</li></a>
+    <a href="../相册/index.html"><li>个人相册</li></a>
+    <a href="../留言/index.html"><li>留言板</li></a>
+    </ul>
+</div>
+
+    <div class="nr">
+        <h1>相册</h1>
+        <hr>
+        <div class="container">
+            <div class="item"><img src="./相册/1.png" alt=""></div>
+            <div class="item"><img src="./相册/2.png" alt=""></div>
+            <div class="item"><img src="./相册/3.png" alt=""></div>
+            <div class="item"><img src="./相册/4.png" alt=""></div>
+            <div class="item"><img src="./相册/5.png" alt=""></div>
+            <div class="item"><img src="./相册/1.png" alt=""></div>
+            <div class="item"><img src="./相册/1.png" alt=""></div>
+            <div class="item"><img src="./相册/2.png" alt=""></div>
+            <div class="item"><img src="./相册/3.png" alt=""></div>
+            <div class="item"><img src="./相册/1.png" alt=""></div>
+            <div class="item"><img src="./相册/2.png" alt=""></div>
+            
+            <div class="item"><img src="./相册/1.png" alt=""></div>
+            <div class="item"><img src="./相册/2.png" alt=""></div>
+            <div class="item"><img src="./相册/3.png" alt=""></div><div class="item"><img src="./相册/3.png" alt=""></div>
+        </div>
+    </div>
+
+
+
+<div class="buttombox">
+    <span>
+        关于我们.....
+    </span>
+</div>
+
+</div>
+<!-- 蒙版 -->
+<div class="mark">
+    <img src="./相册/1.png" alt="" class="tp"> 
+</div>
+</body>
+
+</html>
+<script>
+// 控制蒙版
+
+const tup=document.querySelectorAll('img')
+const mark=document.querySelector('.mark')
+const tp=document.querySelector('.tp')
+for(let k=0;k<tup.length;k++ )
+{
+    tup[k].addEventListener('click',function(e){
+    mark.style.display="block"
+    tp.src=this.src
+})
+}
+
+
+mark.addEventListener('click',function(e){
+    mark.style.display="none"
+})
+</script>
+
+<!--dd  -->
